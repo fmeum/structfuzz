@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ProtobufFuzzTests.dynamicMessageFuzzTest (Regression Test)" type="JUnit" factoryName="JUnit">
+    <module name="structfuzz" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.example.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.example" />
+    <option name="MAIN_CLASS_NAME" value="org.example.ProtobufFuzzTests" />
+    <option name="METHOD_NAME" value="dynamicMessageFuzzTest(com.google.protobuf.DescriptorProtos$DescriptorProto)" />
+    <option name="TEST_OBJECT" value="method" />
+    <option name="VM_PARAMETERS" value="-ea -Djazzer.experimental_mutator=true" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
